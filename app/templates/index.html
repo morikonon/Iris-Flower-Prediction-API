@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Prediction</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flower Prediction</h1>
+        <form id="flower-form">
+            <label for="sepal_length">Sepal Length (float):</label>
+            <input type="number" step="any" id="sepal_length" name="sepal_length" required><br><br>
+
+            <label for="sepal_width">Sepal Width (float):</label>
+            <input type="number" step="any" id="sepal_width" name="sepal_width" required><br><br>
+
+            <label for="petal_length">Petal Length (float):</label>
+            <input type="number" step="any" id="petal_length" name="petal_length" required><br><br>
+
+            <label for="petal_width">Petal Width (float):</label>
+            <input type="number" step="any" id="petal_width" name="petal_width" required><br><br>
+
+            <button type="submit">Predict Flower</button>
+        </form>
+
+        <div id="prediction-result" class="result">
+            <!-- The prediction result will be displayed here -->
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
