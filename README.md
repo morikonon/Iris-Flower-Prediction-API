@@ -12,7 +12,7 @@
 
 1. Клонировать репозиторий:
 
-https://github.com/твоя-ссылка.git
+https://github.com/morikonon/Iris-Flower-Prediction-API.git
 
 
 2. Установить зависимости:
