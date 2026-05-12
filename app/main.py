@@ -21,10 +21,10 @@ def read_root(request: Request):
 templates = Jinja2Templates(directory="templates")
 
 class Flower(BaseModel):
-	sepal_length:float
-	sepal_width:float
-	petal_length:float
-	petal_width:float
+	sepal_length: float
+	sepal_width: float
+	petal_length: float
+	petal_width: float
 
 flowers_db = []
 
